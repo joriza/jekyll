@@ -220,3 +220,8 @@ El archivo debe llamarse index.md
 _config.yml debe estar en la raiz del proyecto
 
 [Temas permitidos](https://pages.github.com/themes/)
+
+La pagina:  
+https://joriza.github.io/jekyll/  
+Contiene otro texto que no es el del readme.md, lo que se vé en esa dirección es el contenido en index.md
+
