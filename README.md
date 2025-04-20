@@ -5,9 +5,11 @@
 ## [IMC](https://drive.google.com/drive/folders/11oJszc78RBcjjiTi4ULlVg26f3zzDgKW?usp=sharing)
 
 
+
+Para habilitar githubpages en un repositorio debe ir a settings en github
+
+
 _config.yml debe estar en la raiz del proyecto
-
-
 
 Tema | Nombre en _config.yml
 Minima | minima
