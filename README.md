@@ -1,4 +1,4 @@
-# 🌐 Guía completa para crear un sitio web con GitHub Pages y Jekyll
+# 🌐 Guía para crear un sitio web con GitHub Pages y Jekyll
 
 ## 🧾 ¿Qué es GitHub Pages?
 
@@ -212,26 +212,11 @@ Accedé en `http://localhost:4000`
 
 ---
 
-```
 
-
-========================================================================
-
-# Configurar GitHub Pages
-
-Para habilitar githubpages en un repositorio debe ir a settings en github, seccion pages.
+Notas adicionales a revisar si están en la parte superior
 
 El archivo debe llamarse index.md
 
-
 _config.yml debe estar en la raiz del proyecto
-
-    jekyll/
-    ├── docs/
-    │   ├── _config.yml       👈 ← Ahora está acá
-    │   ├── index.md
-    │   ├── _layouts/
-    │   ├── _posts/
-    │   └── ...
 
 [Temas permitidos](https://pages.github.com/themes/)
