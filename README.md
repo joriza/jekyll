@@ -213,7 +213,7 @@ Accedé en `http://localhost:4000`
 ---
 
 
-Notas adicionales a revisar si están en la parte superior
+## Notas adicionales a revisar si están en la parte superior
 
 El archivo debe llamarse index.md
 
@@ -225,3 +225,87 @@ La pagina:
 https://joriza.github.io/jekyll/  
 Contiene otro texto que no es el del readme.md, lo que se vé en esa dirección es el contenido en index.md
 
+---
+
+## 🔧 Generadores soportados en GitHub Pages
+
+### 1. **Jekyll** (soporte nativo)
+- Totalmente integrado.
+- No requiere acciones especiales, solo usar archivos Markdown y `_config.yml`.
+- Ideal para blogs, documentación y sitios personales.
+
+---
+
+### 2. **Mermaid** (para diagramas)
+✅ **Sí, sigue disponible** en GitHub.  
+Mermaid es una librería de JavaScript que permite crear **diagramas** y **gráficos** usando sintaxis de texto plano.
+
+#### ✅ ¿Dónde funciona?
+- En **archivos `.md` directamente dentro de GitHub** (en el navegador).
+- **En sitios GitHub Pages solo si se incluye manualmente la librería Mermaid.js**, ya que GitHub Pages **no la activa por defecto en Jekyll**.
+
+#### 💡 Cómo combinar Mermaid con Jekyll en GitHub Pages
+
+1. Agregá Mermaid desde CDN en tu plantilla/layout:
+
+```html
+<!-- En _layouts/default.html o en index.md si usás HTML -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+```
+
+2. Usá el bloque de código así:
+
+<pre>
+```mermaid
+graph TD
+  A[Inicio] --> B[Proceso]
+  B --> C{¿Decisión?}
+  C -->|Sí| D[Camino 1]
+  C -->|No| E[Camino 2]
+```
+</pre>
+
+> ⚠️ En GitHub Pages, para que funcione, asegurate de que el bloque esté dentro de una página con layout HTML válido (no puro Markdown plano) y que Mermaid esté importado.
+
+---
+
+## 🚀 ¿Se pueden combinar Jekyll + Mermaid + otros?
+
+¡Sí! Podés combinar:
+
+| Tecnología | ¿Compatible? | ¿Requiere configuración extra? |
+|------------|--------------|-------------------------------|
+| **Jekyll** | ✅ Nativo     | No                            |
+| **Mermaid**| ✅ Sí         | Sí, incluir el script         |
+| **Bootstrap/Tailwind** | ✅ Sí | Sí, incluir las librerías en tu layout |
+| **MathJax (LaTeX)** | ✅ Sí | Ideal para fórmulas matemáticas |
+| **JavaScript personalizado** | ✅ Sí | Podés agregar scripts propios |
+
+---
+
+## 🧪 Ejemplo completo
+
+```markdown
+---
+layout: default
+title: Diagrama con Mermaid
+---
+
+# Diagrama de ejemplo
+
+```mermaid
+flowchart TD
+    A[Inicio] --> B{¿Continuar?}
+    B -->|Sí| C[Fin feliz]
+    B -->|No| D[Fin alternativo]
+```
+```
+
+Asegurate de que `default.html` tenga el script de Mermaid cargado como se explicó antes.
+
+---
+
+¿Querés que te arme una plantilla de ejemplo que combine **Jekyll + Mermaid** lista para usar?
