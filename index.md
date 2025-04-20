@@ -1,8 +1,3 @@
-¡Claro! Acá tenés todo el contenido de este chat resumido, ordenado y estructurado para que puedas copiarlo directamente en un documento `.md` (Markdown). Está organizado por secciones claras, como guía práctica para configurar un sitio Jekyll en GitHub Pages.
-
----
-
-```markdown
 # Guía para configurar Jekyll en GitHub Pages
 
 ## 🧰 Requisitos previos
@@ -164,6 +159,3 @@ https://tuusuario.github.io/nombre-del-repositorio/
 
 ---
 
-```
-
-¿Querés que también te lo exporte como `.md` o `.pdf` para descargar?
