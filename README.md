@@ -5,3 +5,6 @@
 ## [IMC](https://drive.google.com/drive/folders/11oJszc78RBcjjiTi4ULlVg26f3zzDgKW?usp=sharing)
 
 
+_config.yml debe estar en la raiz del proyecto
+
+
