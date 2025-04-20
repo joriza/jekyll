@@ -8,3 +8,20 @@
 _config.yml debe estar en la raiz del proyecto
 
 
+
+Tema | Nombre en _config.yml
+Minima | minima
+Cayman | cayman
+Slate | slate
+Time Machine | time-machine
+Dinky | dinky
+Hacker | hacker
+Leap Day | leap-day
+Merlot | merlot
+Midnight | midnight
+Modernist | modernist
+Tactile | tactile
+Architect | architect
+...y algunos más. | 
+
+
