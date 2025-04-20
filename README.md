@@ -1,8 +1,3 @@
-Perfecto, acá tenés una **guía clara, ampliada y paso a paso** sobre cómo usar **GitHub Pages con Jekyll**, ideal para copiar y pegar en un documento `.md`. Está pensada para alguien que empieza desde cero.
-
----
-
-```markdown
 # 🌐 Guía completa para crear un sitio web con GitHub Pages y Jekyll
 
 ## 🧾 ¿Qué es GitHub Pages?
